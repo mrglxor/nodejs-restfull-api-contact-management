@@ -1,6 +1,10 @@
 import {web} from "./application/web.js";
 import {logger} from "./application/logging.js";
+import dotenv from "dotenv";
+dotenv.config();
 
-web.listen(333, () => {
-    logger.info('App start in http://localhost:333');
+const { PORT } = process.env;
+
+web.listen(PORT, () => {
+    logger.info(`App start in http://localhost:${PORT}`);
 });
