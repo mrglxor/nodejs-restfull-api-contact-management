@@ -9,7 +9,7 @@ Contact Management API is a powerful and easy-to-use solution for managing your 
 - **Project Name:** Contact Management API
 - **Description:** A RESTful API for managing user information, contacts, and addresses.
 - **Version:** 1.0
-- **Deployment:** [Railway](https://codeworshipper.netlify.app)
+- **Deployment:** [Railway](https://contact-management.up.railway.app/)
 - **Status:** Released
 
 ## Table of Contents
