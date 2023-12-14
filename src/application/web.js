@@ -5,12 +5,8 @@ import { userRouter } from "../route/api.js";
 import cors from "cors";
 
 export const web = express();
+web.use(cors());
 web.use(express.json());
 web.use(publicRouter);
 web.use(userRouter);
 web.use(errorMiddleware);
-web.use(cors(
-    {
-        origin: "http://127.0.0.1:5500/"
-    }
-));
