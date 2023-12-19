@@ -166,6 +166,10 @@ Response Body Error :
 
 Endpoint : DELETE /api/users/logout
 
+Headers :
+
+- Authorization : token
+
 Response Body Success :
 
 ```json
@@ -347,8 +351,6 @@ Endpoint : DELETE /api/contacts/:id
 Headers :
 
 - Authorization : token
-
-Request Body :
 
 Response Body Success :
 
